@@ -1,0 +1,12 @@
+<p>kurthi works!</p>
+<div class="kurta-grid">
+    <div class="kurta-card" *ngFor="let kurta of kurtas">
+      <a routerLink="/kurthidetails/:id">
+      <img src="{{kurta.image}}" alt="{{ kurta.name }}" height="500px">
+    </a>
+      <div class="product-details">
+          <h3>{{ kurta.name }}</h3>
+           <p>{{ kurta.price }}</p>
+      </div>
+    </div>
+  </div>

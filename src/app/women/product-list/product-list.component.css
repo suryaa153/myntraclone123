@@ -1,0 +1,21 @@
+.product-list {
+  grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-list div {
+    width: 22%;
+    margin: 1%;
+    cursor: pointer;
+  }
+  
+  .product-list img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-list h3, .product-list p {
+    text-align: center;
+  }
+  

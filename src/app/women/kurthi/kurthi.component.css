@@ -1,0 +1,25 @@
+
+.kurta-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px; 
+  }
+  
+  .kurta-card {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .kurta-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .kurta-details {
+    padding: 10px;
+    
+  }
+  

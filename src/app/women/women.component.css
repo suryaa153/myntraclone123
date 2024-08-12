@@ -1,0 +1,46 @@
+.women-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .women-grid {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+  }
+  
+  .women-card {
+    text-align: center;
+    margin: 16px;
+    width: 150px;
+    overflow: hidden;
+    cursor: pointer;
+    
+  }
+  
+  .image-container {
+    width: 130px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .women-title {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  

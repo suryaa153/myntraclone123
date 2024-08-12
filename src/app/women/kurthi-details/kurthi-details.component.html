@@ -1,0 +1,32 @@
+<p>kurthi-details works!</p>
+<div class="product-container">
+    <div class="product-images"> 
+      <div class="image-row" *ngFor="let images of product.images">
+        <img src="{{images}}">
+      </div>
+    </div> 
+    <div class="product-details"> 
+      <h2>{{ product.name }}</h2>
+      <div class="rating">
+        <span>{{ product.rating }} ★ | {{ product.totalRatings }} Ratings</span>
+      </div>
+      <div class="price">
+        <span class="discounted-price">₹{{ product.discountedPrice }}</span>
+        <span class="original-price">₹{{ product.originalPrice }}</span>
+        <span class="discount">({{ product.discount }}% OFF)</span>
+      </div>
+      <div class="size-selector">
+        <label>Select Size</label>
+        <div class="sizes">
+          <button *ngFor="let size of sizes" (click)="selectSize(size)">{{ size }}</button>
+        </div>
+      </div>
+      <button (click)="addToBag()">Add to Bag</button>
+      <button (click)="addToWishlist()">Wishlist</button>
+    </div>
+  </div>
+   
+
+
+
+
